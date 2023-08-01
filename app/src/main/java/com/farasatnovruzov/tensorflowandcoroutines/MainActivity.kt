@@ -91,7 +91,7 @@ class MainActivity : AppCompatActivity() {
     //to get image from gallery
     private val onResult = registerForActivityResult(ActivityResultContracts.StartActivityForResult()){result ->
         Log.v("TAG","This is result: ${result.data} ${result.resultCode}")
-        onResultReceived(GALLERY_REQUEST_CODE,result = null)
+        onResultReceived(GALLERY_REQUEST_CODE,result = result)
     }
 
     private fun onResultReceived(requestCode: Int, result: ActivityResult?){

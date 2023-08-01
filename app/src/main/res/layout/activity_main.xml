@@ -14,7 +14,7 @@
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        android:backgroundTint="@color/black"/>
+        android:backgroundTint="@color/orange"/>
 
     <ImageView
         android:id="@+id/imageView"
@@ -29,7 +29,7 @@
         android:id="@+id/btn_capture_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/black"
+        android:backgroundTint="@color/orange"
         android:text="Take Image"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
@@ -39,7 +39,8 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Output: "
+        android:text="Output:"
+        android:textColor="@color/teal_700"
         android:textSize="21sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
